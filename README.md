@@ -6,7 +6,10 @@ This work presents a preliminary attempt to address a fundamental question for d
 <img src="assets/overall_dm.png" width="45%">
 </div>
 
-## Environment
+## Python Env
+As this code repository uses the package [OpenSpiel](https://github.com/google-deepmind/open_spiel), an environment with the Python version that is compatible with OpenSpiel is preferred, e.g., Python >= 3.7.
+
+## Games
 All the game environments are built on top of [OpenSpiel](https://github.com/google-deepmind/open_spiel), which can be installed using the following command:
 ```py
 python3 -m pip install open_spiel
